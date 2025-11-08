@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor de Divisas</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <h1>Conversor de Divisas</h1>
+    
+    <label for="cantidad">Cantidad a convertir:</label>
+    <input type="text" id="cantidad" value="100" min="0">
+
+
+    <!--moneda origen es con la que se comienza-->
+    <label for="moneda-origen">Moneda Origen:</label>
+    <select id="moneda-origen">
+        <option value="USD">Dólar (USD)</option>
+        <option value="EUR">Euro (EUR)</option>
+        <option value="MXN">Peso Mexicano (MXN)</option>
+    </select>
+
+
+     <!--moneda destino es a la que se desea convertir-->
+    <label for="moneda-destino">Moneda Destino:</label>
+    <select id="moneda-destino">
+        <option value="EUR">Euro (EUR)</option>
+        <option value="USD">Dólar (USD)</option>
+        <option value="MXN">Peso Mexicano (MXN)</option>
+    </select>
+    
+    <button id="btn-convertir">Convertir</button>
+
+    <div id="resultado-divisas">
+        Resultado: 
+    </div>
+
+    <script src="JS/miScript.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+*{
+   
+}
+
+body {
+     background-image: url(/CSS/pexels-pixabay-259132.jpg);
+     background-size: cover;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(170, 199, 102);
+    color: #000000;
+}
+
+h3{
+    color: aliceblue;
+}
+
+input{
+    color: #3b5829;
+    text-shadow: #000000;
+    margin-bottom: 10px;
+    display: block;
+}
+
+select{
+    color: #3b5829;
+    text-shadow: #000000;
+    margin-bottom: 10px;
+    display: block;
+}
+
+label,button {
+    text-shadow: #000000;
+    margin-bottom: 10px;
+    display: block;
+     color: aliceblue;
+}
+
+input[type="number"], select {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 12px 15px;
+    background-color: #344b2a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 1.1em;
+}
+
+#resultado-divisas {
+    color: beige;
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #688542;
+    font-weight: bold;
+    border-radius: 8px;
+    text-align: center;
+}
