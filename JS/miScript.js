@@ -5,12 +5,14 @@ class ConvertidorDivisas {
             'USD': 1.00, 
             'EUR': 0.86, 
             'MXN': 18.45, 
+            'GBP': 1.32, 
         };
         // Símbolos para formato
         this.simbolos = {
             'USD': '$',
             'EUR': '€',
             'MXN': '$',
+            'GBP': '£',
         };
     }
 
